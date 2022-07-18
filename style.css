@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Lato:wght@300&family=Open+Sans&family=Russo+One&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.heading-container {
+    font-family: 'bangers';
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    color:rgb(0, 109, 0);
+    max-width: 600px;
+    height: 50px;
+    margin: 0 auto;
+    padding: 5px;
+    background: #fff;
+    border: #fff 1px solid;
+}
+
+.how {
+    color:rgb(0, 255, 0);
+    text-shadow: 1px 1px 2px black;
+}
+
+.score-container {
+    font-family: 'bangers';
+    color:rgb(0, 109, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 50px;
+    background: #fff;
+    max-width: 600px;
+    height: 30px;
+    margin: 0 auto;
+    padding: 0px;
+    background: #fff;
+    border: #fff 1px solid;
+}
+
+.score-number {
+    color:rgb(21, 255, 0);
+    text-shadow: 1px 1px 2px black;
+    font-size: 1.8rem;
+}
+
+.translation {
+    font-family: 'bangers';
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 80px;
+    margin: 0 auto;
+    height: 40px;
+    background: #fff;
+    color:rgb(0, 216, 245);
+    font-size: 1.3rem;
+    text-shadow: 1px 1px 1px black;
+    background: #fff;
+    border: #ccc 1px solid;
+    border-radius: 10px;;
+}
+
+.questions-container {
+    max-width: 600px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns:  92% 8%;
+    justify-content: start;
+    font-family: 'russo one';
+    font-weight: 100;
+    padding: 5px;
+}
+
+
+.questions-container-B {
+    max-width: 600px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns:  92% 8%;
+    justify-content: start;
+    font-family: 'russo one';
+    font-weight: 100;
+    margin-bottom: 0px;
+    padding: 5px;
+    border-bottom: rgb(84, 198, 243) 1px solid;
+}
+
+.names {
+    font-family: 'bangers';
+    color:rgb(255, 251, 0);
+    font-size: 2rem;
+    text-shadow: 1px 1px 2px rgba(0,0,0, 0.8);
+    margin-right: 10px;
+}
+
+.item-lines {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.input {
+    font-size: 1.1rem;
+    font-family: 'russo one';
+    color: rgb(0, 0, 0);
+    width: 3.9rem;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    border-style: none;
+    background-color:#fff;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+}
+
+.input:focus {
+    border-bottom: rgb(255, 0, 212) 1px solid;
+}
+
+.check {
+    width: 40px;
+    visibility: hidden;
+}
+
+.btnTranslation {
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+    background-color: #fff;
+    color: darkcyan;
+    -webkit-appearance: none;
+    border-radius: 20px;
+    font-family: 'bangers';
+    font-size: 0.6rem;
+    border-style: none;
+    background-color: #fff;
+    box-shadow: inset 2px 2px 5px 1px rgba(0,0,0,0.2)
+}
+
+.btnTranslation:hover {
+    background-color: rgb(255, 228, 248);
+}
+
